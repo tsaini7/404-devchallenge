@@ -66,3 +66,37 @@ header {
 .btn:hover::before {
     content: '<- ';
 }
+
+/* -------- RESPONSIVE ----------- */
+
+@media  (max-width: 1000px) {
+    
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 287px;
+    height: 238px;
+}
+
+.descrip {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+}
+.description {
+    width: 100%;
+}
+
+}
